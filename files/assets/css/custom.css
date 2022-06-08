@@ -1,0 +1,121 @@
+/* @font-face {
+    font-family: "NotoSerifSC-Regular"; 
+    src: url("./fonts/NotoSerifSC-Regular.otf");
+    font-style: normal;
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "NotoSerifSC-Bold";
+    src: url("./fonts/NotoSerifSC-Bold.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "NotoSerifSC-Light";
+    src: url("./fonts/NotoSerifSC-Light.otf");
+} */
+
+@font-face {
+    font-family: "Code-New-Roman-Nerd-Font-Complete";
+    src: url("./fonts/Code-New-Roman-Nerd-Font-Complete.otf");
+}
+
+:root {
+    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "PingFang SC",
+      HarmonyOS_Regular, "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
+      Helvetica, "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei",
+      Arial, sans-serif;
+    --font-serif: STZhongsong, STSong, "Noto Serif CJK", "Noto Serif SC", PMingLiu,
+      SimSun, "WenQuanYi Bitmap Song", "Times New Roman", Times, serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-mono: ui-monospace, SFMono-Regular, "SF Mono", "Cascadia Code",
+      "Segoe UI Mono", "Source Code Pro", Menlo, Consolas, "Liberation Mono",
+      monospace;
+  }
+  
+body {
+    /* font-family: Helvetica, Arial, Serif, "NotoSerifSC-Light", "Microsoft Yahei", "NotoSerifSC-Regular"; */
+    font-family: var(--font-sans-serif);
+    line-height: 1.8em;
+    font-size: 16px;
+    text-align: justify;
+
+  }
+  
+h1 {
+    /* font-family: Helvetica, Arial, Serif, FangSong, "NotoSerifSC-Bold", "Microsoft Yahei"; */
+    font-family: var(--font-serif);
+    font-weight: bold;
+    line-height: 1.8em;
+    /* text-transform: uppercase; */
+}
+
+h2 {
+    font-family: var(--font-serif);
+    font-weight: bold;
+    line-height: 1.8em;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: var(--font-serif);
+    font-weight: bold;
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: var(--font-serif);
+    font-weight: bold;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
+/* body>nav>div.container {
+    width: 70%;
+    margin: auto;
+}
+
+body>div.container#content {
+    width: 60%;
+    margin: auto;
+} */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.p-summary.entry-summary.toc {
+    display: None; /* disable showing the TOC in my blog home page teasers */
+  }
+  
+  .toc {
+    float: right;
+    width: 50%;
+    max-width: fit-content;
+    background-color: #e9f8f8;
+    border-radius: 3px;
+    padding: 10px 10px 1px 6px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: auto;
+    overflow: auto;
+    
+  }
+
+
+.cell.border-box-sizing.code_cell.rendered {
+    font-family: "Code-New-Roman-Nerd-Font-Complete", 'KaiTi';
+    line-height: 1.8em;
+    text-align: left;
+}
+
+.code.literal-block {
+    font-family: "Code-New-Roman-Nerd-Font-Complete", "KaiTi";
+    line-height: 1.6em;
+    text-align: left;
+}
+
