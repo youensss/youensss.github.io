@@ -2,8 +2,8 @@
 .. title: See theory
 .. slug: see-theory
 .. date: 2020-04-19 20:41:53 UTC+08:00
-.. tags: math, probabilities 
-.. category: mathematics
+.. tags: Probabilities 
+.. category: Mathematics
 .. link: 
 .. description: 
 .. type: text 

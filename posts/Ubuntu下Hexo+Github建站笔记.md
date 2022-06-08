@@ -2,7 +2,7 @@
 .. title: Ubuntu 下 Hexo + Github 建站笔记
 .. slug: ubuntu下Hexo+github建站笔记
 .. date: 2019-07-04 16:19:48
-.. tags: Ubuntu, Hexo, github
+.. tags: Ubuntu, Hexo, Github
 .. category: Hexo
 .. link:
 .. description:

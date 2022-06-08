@@ -4,7 +4,7 @@
 .. date: 2019-10-14 09:57:59
 .. tags: Python
 .. category: Python
-.. link:
+.. link: 
 .. description:
 .. type: text
 .. has_math: true

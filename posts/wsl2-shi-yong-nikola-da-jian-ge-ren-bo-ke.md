@@ -2,7 +2,7 @@
 .. title: WSL2 使用 Nikola 搭建个人博客
 .. slug: wsl2-shi-yong-nikola-da-jian-ge-ren-bo-ke
 .. date: 2022-04-29 13:28:09 UTC+08:00
-.. tags: WSL2, Nikola, blog, github, Jupyter-notebook
+.. tags: WSL2, Nikola, Blog, Github, Jupyter-notebook
 .. category: Nikola
 .. link: 
 .. description: 
