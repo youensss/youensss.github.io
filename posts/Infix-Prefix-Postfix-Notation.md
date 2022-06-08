@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. has_math: true
 -->
 
 [TOC]
@@ -15,15 +16,15 @@ Infix, prefix and postfix notations are three equivalent ways of writing mathema
 
 # 1 Infix Notation
 
-Infix notation is the most natural way we write mathematical expressions, as we use it every day. For example, $A+B$, which means a plus b. However, infix notation needs extra information to make the order of evaluation of the operators clear, in which case, means the arithmetic rules. An expression like $(A+B)*(C+D)$ means that we should do the two additions in the brackets first and then do the multiplication by the two results.
+Infix notation is the most natural way we write mathematical expressions, as we use it every day. For example, $A+B$, which means a plus b. However, infix notation needs extra information to make the order of evaluation of the operators clear, in which case, means the arithmetic rules. An expression like $(A+B) \ast (C+D)$ means that we should do the two additions in the brackets first and then do the multiplication by the two results.
 
 # 2 Prefix Notation
 
-When using prefix notation, the operator is written before their operands. For example, assume you want to convert the infix expression $(A+B)*(C+D)$ to prefix, the result is like this: $*+AB+CD$. In fact, we can add brackets to make this more explicit: $((A+B)*(C+D))$. As you can find, the operator of the two operands just moves to the left bracket in prefix expression.
+When using prefix notation, the operator is written before their operands. For example, assume you want to convert the infix expression $(A+B) \ast (C+D)$ to prefix, the result is like this: $\ast +AB+CD$. In fact, we can add brackets to make this more explicit: $((A+B) \ast (C+D))$. As you can find, the operator of the two operands just moves to the left bracket in prefix expression.
 
 # 3 Postfix Notation
 
-Contrary to the prefix notation, the operator is written after their operands in postfix expression. For example, infix expression $(A+B)*(C+D)$ should be writen as $AB+CD+*$. If we use the same adding-brackets trick, you will find the operator of the operands moves to the right in postfix expression.
+Contrary to the prefix notation, the operator is written after their operands in postfix expression. For example, infix expression $(A+B)\ast (C+D)$ should be writen as $AB+CD+ \ast$. If we use the same adding-brackets trick, you will find the operator of the operands moves to the right in postfix expression.
 
 Though equivalent, infix, prefix and postfix notations have different application scenarios.
 
@@ -221,4 +222,6 @@ def doMath(op, op1, op2):
 
 - http://www.cs.man.ac.uk/~pjj/cs212/fix.html
 - https://runestone.academy/runestone/books/published/pythonds/BasicDS/InfixPrefixandPostfixExpressions.html
+
+
 
