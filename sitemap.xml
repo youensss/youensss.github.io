@@ -11,7 +11,7 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2022-06-08T13:19:00Z</lastmod>
+  <lastmod>2022-06-08T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/blog/</loc>
@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://example.com/blog/index-1.html</loc>
-  <lastmod>2022-06-08T13:19:00Z</lastmod>
+  <lastmod>2022-06-08T14:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
@@ -52,10 +52,6 @@
  <url>
   <loc>https://example.com/categories/cat_nikola/</loc>
   <lastmod>2022-06-08T01:56:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/cat_python-numpy/</loc>
-  <lastmod>2022-06-08T12:55:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_python/</loc>
@@ -143,10 +139,6 @@
  </url>
  <url>
   <loc>https://example.com/listings/hello.py.html</loc>
-  <lastmod>2022-06-08T06:14:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/backtest-portfolio-optimization/</loc>
   <lastmod>2022-06-08T06:14:00Z</lastmod>
  </url>
  <url>
