@@ -11,19 +11,27 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2022-06-08T06:14:00Z</lastmod>
+  <lastmod>2022-06-08T12:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/blog/</loc>
-  <lastmod>2022-06-08T06:14:00Z</lastmod>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/blog/index-1.html</loc>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2022-06-08T06:22:00Z</lastmod>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/blog/</loc>
   <lastmod>2022-06-08T01:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/cat_hexo/</loc>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_linux/</loc>
@@ -44,6 +52,10 @@
  <url>
   <loc>https://example.com/categories/github/</loc>
   <lastmod>2022-06-08T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/categories/hexo/</loc>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/http/</loc>
@@ -110,6 +122,10 @@
   <lastmod>2022-06-08T06:14:00Z</lastmod>
  </url>
  <url>
+  <loc>https://example.com/posts/infix-prefix-postfix-notation/</loc>
+  <lastmod>2022-06-08T09:17:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://example.com/posts/matplotlib-%E5%B8%B8%E7%94%A8%E7%BB%98%E5%9B%BE/</loc>
   <lastmod>2022-06-08T06:14:00Z</lastmod>
  </url>
@@ -136,6 +152,10 @@
  <url>
   <loc>https://example.com/posts/ubuntu18.04-%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
   <lastmod>2022-06-08T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://example.com/posts/ubuntu%E4%B8%8BHexo%2Bgithub%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</loc>
+  <lastmod>2022-06-08T09:07:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/wsl2-shi-yong-nikola-da-jian-ge-ren-bo-ke/</loc>
